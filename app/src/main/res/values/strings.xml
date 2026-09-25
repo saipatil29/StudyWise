@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">StudyWise</string>
+    <string name="app_tagline">Study smarter. Not harder.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_subjects">Subjects</string>
+    <string name="nav_focus">Focus</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Greetings & Dashboard -->
+    <string name="greeting_morning">Good Morning</string>
+    <string name="greeting_afternoon">Good Afternoon</string>
+    <string name="greeting_evening">Good Evening</string>
+    <string name="ready_to_study">Ready to study?</string>
+    <string name="streak_format">%1$d Day Streak</string>
+    <string name="no_streak_yet">Start your first study session to begin your streak</string>
+    <string name="daily_goal">Today\'s Goal</string>
+    <string name="daily_goal_format">%1$d / %2$d min</string>
+    <string name="summary_stats_format">%1$d Subjects  •  %2$s Planned  •  %3$s Completed</string>
+
+    <!-- Smart Recommendation -->
+    <string name="todays_focus">TODAY\'S FOCUS</string>
+    <string name="what_should_i_study">WHAT SHOULD I STUDY?</string>
+    <string name="priority_score_format">%1$d / 100</string>
+    <string name="exam_in_days">Exam in %1$d days</string>
+    <string name="exam_today">Exam Today</string>
+    <string name="exam_tomorrow">Exam Tomorrow</string>
+    <string name="exam_passed">Exam Passed</string>
+    <string name="preparation">Preparation</string>
+    <string name="preparation_percentage">%1$d%%</string>
+    <string name="recommended_session">Recommended Session</string>
+    <string name="recommended_duration_format">%1$d minutes</string>
+    <string name="btn_start_study">START STUDY</string>
+    <string name="why_this_subject">WHY THIS SUBJECT?</string>
+
+    <!-- Plan & Exams -->
+    <string name="todays_plan">TODAY\'S PLAN</string>
+    <string name="upcoming_exams">UPCOMING EXAMS</string>
+    <string name="view_all">View All</string>
+
+    <!-- Priority Levels -->
+    <string name="priority_critical">CRITICAL</string>
+    <string name="priority_high">HIGH</string>
+    <string name="priority_medium">MEDIUM</string>
+    <string name="priority_low">LOW</string>
+
+    <!-- Difficulties -->
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+
+    <!-- Subject Management -->
+    <string name="title_subjects">My Subjects</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="edit_subject">Edit Subject</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="subject_name_hint">e.g., Computer Networks</string>
+    <string name="exam_date">Exam Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="initial_prep">Preparation Percentage</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="daily_study_goal">Daily Study Goal (Minutes)</string>
+    <string name="daily_study_goal_hint">e.g., 45</string>
+    <string name="description">Description (Optional)</string>
+    <string name="description_hint">Key syllabus modules, textbook info...</string>
+    <string name="btn_save_subject">SAVE SUBJECT</string>
+    <string name="btn_delete_subject">Delete Subject</string>
+    <string name="delete_subject_confirmation">Are you sure you want to delete \"%1$s\"? All associated topics, quizzes, and study history will be permanently removed.</string>
+
+    <!-- Subject Details -->
+    <string name="title_subject_details">Subject Details</string>
+    <string name="topics">TOPICS</string>
+    <string name="add_topic">Add Topic</string>
+    <string name="edit_topic">Edit Topic</string>
+    <string name="topic_name">Topic Name</string>
+    <string name="topic_name_hint">e.g., TCP 3-Way Handshake</string>
+    <string name="topic_completion">Topic Completion</string>
+    <string name="topic_mastery">Mastery Level</string>
+    <string name="mastery_unstudied">Unstudied</string>
+    <string name="mastery_familiar">Familiar</string>
+    <string name="mastery_mastered">Mastered</string>
+    <string name="btn_save_topic">SAVE TOPIC</string>
+
+    <!-- Spaced Revision -->
+    <string name="revision_due">REVISION DUE</string>
+    <string name="revision_due_format">%1$d topics need revision today</string>
+    <string name="spaced_repetition_prompt">How well did you remember?</string>
+    <string name="sr_hard">Hard (1d)</string>
+    <string name="sr_okay">Okay (3d)</string>
+    <string name="sr_good">Good (7d)</string>
+    <string name="sr_easy">Easy (14d)</string>
+
+    <!-- Exam Readiness -->
+    <string name="exam_readiness">EXAM READINESS</string>
+    <string name="readiness_ready">Ready</string>
+    <string name="readiness_on_track">On Track</string>
+    <string name="readiness_needs_work">Needs Work</string>
+    <string name="readiness_at_risk">At Risk</string>
+    <string name="factor_preparation">Preparation</string>
+    <string name="factor_topics">Topics</string>
+    <string name="factor_quiz">Quiz Score</string>
+    <string name="factor_consistency">Consistency</string>
+
+    <!-- Focus Mode -->
+    <string name="title_focus">Focus Mode</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="focus_25_min">25 min</string>
+    <string name="focus_50_min">50 min</string>
+    <string name="focus_custom">Custom</string>
+    <string name="custom_minutes_hint">Duration (minutes)</string>
+    <string name="btn_start">START</string>
+    <string name="btn_pause">PAUSE</string>
+    <string name="btn_resume">RESUME</string>
+    <string name="btn_reset">RESET</string>
+    <string name="btn_finish">FINISH</string>
+    <string name="focus_completed_title">Great Work!</string>
+    <string name="focus_completed_message">You studied \"%1$s\" for %2$d minutes.\n+%3$d XP awarded!</string>
+
+    <!-- Study History -->
+    <string name="title_study_history">Study History</string>
+    <string name="history_today">Today</string>
+    <string name="history_yesterday">Yesterday</string>
+    <string name="history_older">Earlier</string>
+
+    <!-- Analytics / Progress -->
+    <string name="title_progress">Analytics</string>
+    <string name="stat_total_time">Total Study Time</string>
+    <string name="stat_today_time">Today\'s Study Time</string>
+    <string name="stat_weekly_time">Weekly Study Time</string>
+    <string name="stat_total_sessions">Total Sessions</string>
+    <string name="stat_avg_session">Avg Session</string>
+    <string name="stat_current_streak">Current Streak</string>
+    <string name="stat_longest_streak">Longest Streak</string>
+    <string name="stat_avg_quiz">Avg Quiz Score</string>
+    <string name="stat_overall_prep">Overall Preparation</string>
+    <string name="weekly_activity">WEEKLY ACTIVITY</string>
+    <string name="subject_breakdown">SUBJECT PREPARATION</string>
+
+    <!-- Quiz System -->
+    <string name="title_quizzes">Knowledge Quizzes</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="question_counter_format">QUESTION %1$d OF %2$d</string>
+    <string name="btn_next">NEXT</string>
+    <string name="btn_submit">SUBMIT</string>
+    <string name="quiz_completed_title">Quiz Completed!</string>
+    <string name="quiz_score_format">%1$d / %2$d Correct (%3$d%%)</string>
+
+    <!-- Gamification -->
+    <string name="level_format">LEVEL %1$d</string>
+    <string name="xp_format">%1$d / %2$d XP</string>
+    <string name="badges">BADGES</string>
+    <string name="badge_first_session">First Step</string>
+    <string name="badge_first_session_desc">Completed your first focus study session</string>
+    <string name="badge_streak_7">Consistency Champion</string>
+    <string name="badge_streak_7_desc">Maintained a 7-day study streak</string>
+    <string name="badge_study_10h">Dedicated Scholar</string>
+    <string name="badge_study_10h_desc">Logged over 10 hours of total study time</string>
+    <string name="badge_quiz_master">Knowledge Seeker</string>
+    <string name="badge_quiz_master_desc">Scored 80%% or higher on 3 quizzes</string>
+    <string name="badge_goal_crusher">Goal Crusher</string>
+    <string name="badge_goal_crusher_desc">Achieved daily study goal 5 times</string>
+
+    <!-- Profile & Settings -->
+    <string name="title_profile">Profile &amp; Settings</string>
+    <string name="student_name_default">Engineering Student</string>
+    <string name="student_email_default">student@university.edu</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="settings_notifications">Study Reminders</string>
+    <string name="settings_notifications_desc">Get notified for upcoming exams &amp; revisions</string>
+    <string name="settings_default_focus">Default Focus Duration</string>
+    <string name="btn_load_demo_data">LOAD DEMO DATA</string>
+    <string name="btn_reset_data">Reset All Data</string>
+    <string name="demo_data_loaded">Realistic demo subjects, topics, and quizzes loaded!</string>
+    <string name="load_demo_confirm">Load demo curriculum with Mobile App Dev, Computer Networks, DBMS, and AI?</string>
+    <string name="reset_data_confirm">Are you sure you want to reset all data? This cannot be undone.</string>
+
+    <!-- Empty States -->
+    <string name="empty_subjects_title">No subjects yet</string>
+    <string name="empty_subjects_desc">Add your subjects to get your personalized study plan and priority rankings.</string>
+    <string name="empty_sessions_title">No study sessions yet</string>
+    <string name="empty_sessions_desc">Start a focus session to begin tracking your study progress and building your streak.</string>
+    <string name="empty_quizzes_title">No quizzes available</string>
+    <string name="empty_quizzes_desc">Add subjects or load demo data to take practice quizzes.</string>
+    <string name="empty_exams_title">No upcoming exams</string>
+    <string name="empty_exams_desc">Add exam dates to subjects to see your countdown schedule.</string>
+    <string name="empty_topics_title">No topics added yet</string>
+    <string name="empty_topics_desc">Break this subject down into topics to track syllabus completion and spaced revisions.</string>
+    <string name="empty_plan_title">No study plan generated</string>
+    <string name="empty_plan_desc">Add subjects with goals to generate an adaptive daily study plan.</string>
+
+    <!-- General Actions & Validation -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="error_name_required">Subject name is required</string>
+    <string name="error_valid_goal">Daily goal must be greater than 0</string>
+    <string name="error_valid_date">Please select an exam date</string>
+</resources>

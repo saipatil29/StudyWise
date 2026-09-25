@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand / Primary -->
+    <color name="primary">#4F46E5</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#EEF2FF</color>
+    <color name="on_primary_container">#312E81</color>
+
+    <!-- Secondary -->
+    <color name="secondary">#0D9488</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#CCFBF1</color>
+    <color name="on_secondary_container">#115E59</color>
+
+    <!-- Tertiary / Gamification -->
+    <color name="tertiary">#F59E0B</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#FEF3C7</color>
+    <color name="on_tertiary_container">#78350F</color>
+
+    <!-- Background and Surface -->
+    <color name="background">#F8FAFC</color>
+    <color name="on_background">#0F172A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#0F172A</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="on_surface_variant">#64748B</color>
+
+    <!-- Priority Colors -->
+    <color name="priority_critical">#EF4444</color>
+    <color name="priority_critical_container">#FEE2E2</color>
+    <color name="priority_critical_text">#991B1B</color>
+
+    <color name="priority_high">#F97316</color>
+    <color name="priority_high_container">#FFEDD5</color>
+    <color name="priority_high_text">#9A3412</color>
+
+    <color name="priority_medium">#EAB308</color>
+    <color name="priority_medium_container">#FEF9C3</color>
+    <color name="priority_medium_text">#854D0E</color>
+
+    <color name="priority_low">#10B981</color>
+    <color name="priority_low_container">#D1FAE5</color>
+    <color name="priority_low_text">#065F46</color>
+
+    <!-- Difficulty Colors -->
+    <color name="difficulty_easy">#10B981</color>
+    <color name="difficulty_medium">#3B82F6</color>
+    <color name="difficulty_hard">#EF4444</color>
+
+    <!-- UI Elements -->
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_tertiary">#94A3B8</color>
+
+    <!-- System / Status -->
+    <color name="success">#10B981</color>
+    <color name="error">#EF4444</color>
+    <color name="streak_fire">#FF5722</color>
+    <color name="xp_gold">#FFB300</color>
+</resources>

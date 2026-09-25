@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <!-- Splash Screen -->
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.studywise.ui.splash.SplashFragment"
+        android:label="Splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splash_to_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- 1. Home Dashboard -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.studywise.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_subject_details"
+            app:destination="@id/subjectDetailsFragment" />
+        <action
+            android:id="@+id/action_home_to_focus"
+            app:destination="@id/navigation_focus" />
+        <action
+            android:id="@+id/action_home_to_add_edit_subject"
+            app:destination="@id/addEditSubjectFragment" />
+    </fragment>
+
+    <!-- 2. Subjects List -->
+    <fragment
+        android:id="@+id/navigation_subjects"
+        android:name="com.example.studywise.ui.subjects.SubjectsFragment"
+        android:label="Subjects"
+        tools:layout="@layout/fragment_subjects">
+        <action
+            android:id="@+id/action_subjects_to_details"
+            app:destination="@id/subjectDetailsFragment" />
+        <action
+            android:id="@+id/action_subjects_to_add_edit"
+            app:destination="@id/addEditSubjectFragment" />
+    </fragment>
+
+    <!-- Subject Add / Edit -->
+    <fragment
+        android:id="@+id/addEditSubjectFragment"
+        android:name="com.example.studywise.ui.subjects.AddEditSubjectFragment"
+        android:label="Subject Details"
+        tools:layout="@layout/fragment_add_edit_subject">
+        <argument
+            android:name="subjectId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <!-- Subject Details View -->
+    <fragment
+        android:id="@+id/subjectDetailsFragment"
+        android:name="com.example.studywise.ui.subjects.SubjectDetailsFragment"
+        android:label="Subject Overview"
+        tools:layout="@layout/fragment_subject_details">
+        <argument
+            android:name="subjectId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+        <action
+            android:id="@+id/action_subject_details_to_add_edit"
+            app:destination="@id/addEditSubjectFragment" />
+        <action
+            android:id="@+id/action_subject_details_to_focus"
+            app:destination="@id/navigation_focus" />
+        <action
+            android:id="@+id/action_subject_details_to_quiz_list"
+            app:destination="@id/quizListFragment" />
+    </fragment>
+
+    <!-- 3. Focus Timer -->
+    <fragment
+        android:id="@+id/navigation_focus"
+        android:name="com.example.studywise.ui.focus.FocusFragment"
+        android:label="Focus"
+        tools:layout="@layout/fragment_focus">
+        <argument
+            android:name="selectedSubjectId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+        <argument
+            android:name="presetDurationMinutes"
+            app:argType="integer"
+            android:defaultValue="-1" />
+        <action
+            android:id="@+id/action_focus_to_history"
+            app:destination="@id/studyHistoryFragment" />
+    </fragment>
+
+    <!-- Study History -->
+    <fragment
+        android:id="@+id/studyHistoryFragment"
+        android:name="com.example.studywise.ui.focus.StudyHistoryFragment"
+        android:label="Study History"
+        tools:layout="@layout/fragment_study_history" />
+
+    <!-- 4. Progress / Analytics -->
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.example.studywise.ui.progress.ProgressFragment"
+        android:label="Progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <!-- 5. Profile & Settings -->
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.studywise.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <!-- Quizzes List -->
+    <fragment
+        android:id="@+id/quizListFragment"
+        android:name="com.example.studywise.ui.quiz.QuizListFragment"
+        android:label="Quizzes"
+        tools:layout="@layout/fragment_quiz_list">
+        <action
+            android:id="@+id/action_quiz_list_to_attempt"
+            app:destination="@id/quizAttemptFragment" />
+    </fragment>
+
+    <!-- Quiz Attempt Session -->
+    <fragment
+        android:id="@+id/quizAttemptFragment"
+        android:name="com.example.studywise.ui.quiz.QuizAttemptFragment"
+        android:label="Take Quiz"
+        tools:layout="@layout/fragment_quiz_attempt">
+        <argument
+            android:name="quizId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+</navigation>

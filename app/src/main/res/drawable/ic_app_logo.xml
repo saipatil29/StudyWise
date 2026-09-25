@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+  <!-- Rounded Background Container -->
+  <path
+      android:fillColor="#4F46E5"
+      android:pathData="M24,8h48a16,16 0 0,1 16,16v48a16,16 0 0,1 -16,16h-48a16,16 0 0,1 -16,-16v-48a16,16 0 0,1 16,-16z"/>
+  <!-- Book Spine & Pages -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M28,32h40c2.2,0 4,1.8 4,4v28c0,2.2 -1.8,4 -4,4H28c-2.2,0 -4,-1.8 -4,-4V36c0,-2.2 1.8,-4 4,-4z"/>
+  <!-- Book Divider / Bookmark -->
+  <path
+      android:fillColor="#EEF2FF"
+      android:pathData="M48,32h24v36H48z"/>
+  <!-- Checkmark / Brain spark inside book -->
+  <path
+      android:fillColor="#4F46E5"
+      android:pathData="M44,52l-6,-6 -2.8,2.8L44,57.6 60.8,40.8 58,38z"/>
+</vector>
